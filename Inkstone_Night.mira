@@ -1,0 +1,73 @@
+// Inkstone Night
+
+appearance {
+  theme: "dark";
+  opacity: 1;
+  surfaceOpacity: 1;
+}
+
+colors {
+  background: #151922;
+  surface: #1B2230;
+  text: #E3EBF7;
+  muted: #A8B5CA;
+  border: #39465A;
+  accent: #92BDFD;
+  button: #28354A;
+  selection: #344967;
+  error: #FF9BA4;
+}
+
+editor {
+  fontSize: 13;
+  lineHeight: 23;
+  minimap: false;
+  wordWrap: false;
+  background: #121722;
+  foreground: #E3EBF7;
+}
+
+syntax {
+  comment: #A8B5CA;
+  keyword: #D8A7F6;
+  string: #A7D9A4;
+  number: #FFD095;
+  type: #8CCFE3;
+  function: #A8C7FA;
+  variable: #E3EBF7;
+  operator: #E3EBF7;
+  tag: #D8A7F6;
+  attribute: #A8C7FA;
+  delimiter: #A8B5CA;
+  regexp: #A7D9A4;
+  class: #8CCFE3;
+  constant: #FFD095;
+  parameter: #E3EBF7;
+  property: #E3EBF7;
+  cursor: #92BDFD;
+  lineNumber: #A8B5CA;
+  activeLineNumber: #E3EBF7;
+  lineHighlight: #27364C;
+  selection: #344967;
+  gutter: #121722;
+  bracket: #92BDFD;
+}
+
+terminal {
+  background: #121722;
+  foreground: #E3EBF7;
+  cursor: #92BDFD;
+  selectionBackground: #344967;
+  red: #FF9BA4;
+  green: #A7D9A4;
+  yellow: #FFD095;
+  blue: #A8C7FA;
+  magenta: #D8A7F6;
+  cyan: #8CCFE3;
+  brightRed: #FF9BA4;
+  brightGreen: #A7D9A4;
+  brightYellow: #FFD095;
+  brightBlue: #92BDFD;
+  brightMagenta: #D8A7F6;
+  brightCyan: #8CCFE3;
+}
